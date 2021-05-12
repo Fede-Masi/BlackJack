@@ -12,7 +12,7 @@ function Verifica(){
 
 	//Validazione inserimento del nome
 	if(nome == "" || nome == "undefined"){
-		alert("Modifica per dare un conflitto")
+		alert("Modifica per dare un conflitto");
 		alert("Devi inserire qualcosa nella casella del nome");
 		document.modulo.nome.focus();
 		return false;
